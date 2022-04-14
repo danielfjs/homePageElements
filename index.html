@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Elementos</title>
+
+</head>
+<body>
+    <header>
+
+        <div class="container text-center">
+            <h1>Escolha um elemento</h1>
+        </div>
+    </header>
+
+
+    <div class="navigation">
+        <div class="nav-content">
+            <a href="#terra">🪨</a>
+        </div>
+        <div class="nav-content">
+            <a href="#fogo">🔥</a>
+        </div>
+        <div class="nav-content">
+            <a href="#ar">🌪</a>
+        </div>
+        <div class="nav-content">
+            <a href="#agua">🌊</a>
+        </div>
+
+    </div>
+    <section class="section-element bg-terra content-paralax d-flex" id="terra">
+        <div>
+            <h2>Terra</h2>
+        </div>
+    </section>
+    <section class="section-element bg-fogo content-paralax d-flex" id="fogo">
+        <div>
+            <h2>Fogo</h2>
+        </div>
+    </section>
+    <section class="section-element bg-ar content-paralax d-flex" id="ar">
+        <div>
+            <h2>Ar</h2>
+        </div>
+    </section>
+    <section class="section-element bg-agua content-paralax d-flex" id="agua">
+        <div>
+            <h2>Água</h2>
+        </div>
+    </section>
+    <h3 class="text-center" id="">Em seguida, cadastre-se</h3>
+    <footer>
+        <form>
+            <fieldset>
+                <div class="campo">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+                <div class="campo">
+                    <label for="sobrenome">Sobrenome</label>
+                    <input type="text" name="sobrenome" id="sobrenome" required>
+                </div>
+                <div class="campo">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div class="campo">
+                    <label>Qual foi o elemento escolhido? </label>
+                    <label>
+                        <input type="radio" name="elemento" value="terra">Terra
+                    </label>
+                    <label>
+                        <input type="radio" name="elemento" value="fogo">Fogo
+                    </label>
+                    <label>
+                        <input type="radio" name="elemento" value="ar">Ar&nbsp&nbsp&nbsp&nbsp
+                    </label>
+                    <label>
+                        <input type="radio" name="elemento" value="agua">Água
+                    </label>
+                    </div>
+            </fieldset>
+        
+<button class="botao" type="submit">Cadastrar</button>
+
+        </form>
+    </footer>
+</body>
+</html>
